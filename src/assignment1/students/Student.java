@@ -1,4 +1,4 @@
-package assignment1;
+package assignment1.students;
 
 public class Student {
     public Integer id;

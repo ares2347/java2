@@ -1,20 +1,20 @@
-package assignment1;
+package assignment1.books;
 
 public class Book {
-    public String name;
+    public String title;
     public Integer id;
 
     public Book(String name, Integer id) {
-        this.name = name;
+        this.title = name;
         this.id = id;
     }
 
     public String getName() {
-        return name;
+        return title;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.title = name;
     }
 
     public Integer getId() {
