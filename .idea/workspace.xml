@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4de51594-67b3-4dbe-a228-5ad524cb8621" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assignment1/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment1/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/books/Book.java" afterDir="false" />
+    <list default="true" id="4de51594-67b3-4dbe-a228-5ad524cb8621" name="Changes" comment="hwss1">
+      <change afterPath="$PROJECT_DIR$/src/assignment1/books/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment1/records/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment1/students/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment1/books/booksController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/books/booksController.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment1/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment1/records/recordsController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/records/recordsController.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment1/students/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/students/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment1/students/studentsController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/students/studentsController.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +79,23 @@
       <option name="presentableId" value="Default" />
       <updated>1665489948285</updated>
       <workItem from="1665489950708" duration="3963000" />
-      <workItem from="1665638906743" duration="2204000" />
+      <workItem from="1665638906743" duration="2536000" />
     </task>
+    <task id="LOCAL-00001" summary="hwss1">
+      <created>1665642495749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665642495750</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hwss1">
+      <created>1665642532175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665642532175</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="hwss1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hwss1" />
   </component>
 </project>
