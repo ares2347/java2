@@ -3,10 +3,12 @@ package assignment1.books;
 public class Book {
     public String title;
     public Integer id;
+    public Integer amount;
 
-    public Book(String name, Integer id) {
+    public Book(String name, Integer id, Integer amount) {
         this.title = name;
         this.id = id;
+        this.amount = amount;
     }
 
     public String getName() {

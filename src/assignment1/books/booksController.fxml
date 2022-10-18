@@ -7,11 +7,11 @@
 
 <Pane fx:controller="assignment1.books.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TableView layoutX="24.0" layoutY="34.0" prefHeight="333.0" prefWidth="282.0">
+      <TableView fx:id="booksTable" layoutX="24.0" layoutY="34.0" prefHeight="333.0" prefWidth="282.0">
         <columns>
-          <TableColumn prefWidth="60.0" text="ID" />
-          <TableColumn prefWidth="149.0" resizable="false" text="Title" />
-            <TableColumn prefWidth="72.0" text="Amount" />
+          <TableColumn fx:id="id" prefWidth="60.0" text="ID" />
+          <TableColumn fx:id="title" prefWidth="149.0" resizable="false" text="Title" />
+            <TableColumn fx:id="amount" prefWidth="72.0" text="Amount" />
         </columns>
       </TableView>
       <Button layoutX="386.0" layoutY="121.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="128.0" text="Add new book" />

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4de51594-67b3-4dbe-a228-5ad524cb8621" name="Changes" comment="hwss1">
-      <change afterPath="$PROJECT_DIR$/src/assignment1/books/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment1/records/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment1/students/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment1/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/books/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment1/books/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/books/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment1/books/booksController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/books/booksController.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment1/records/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/records/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment1/records/recordsController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/records/recordsController.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment1/students/studentsController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment1/students/studentsController.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Repo/JAVA/java2/src/assignment2/Book",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repo\JAVA\java2\src\assignment2\Book" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Repo\JAVA\java2\src\assignment1\students" />
       <recent name="D:\Repo\JAVA\java2\src\assignment1\records" />
@@ -79,7 +85,9 @@
       <option name="presentableId" value="Default" />
       <updated>1665489948285</updated>
       <workItem from="1665489950708" duration="3963000" />
-      <workItem from="1665638906743" duration="2536000" />
+      <workItem from="1665638906743" duration="2662000" />
+      <workItem from="1665638234731" duration="6394000" />
+      <workItem from="1666087436895" duration="2526000" />
     </task>
     <task id="LOCAL-00001" summary="hwss1">
       <created>1665642495749</created>
@@ -95,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665642532175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hwss1">
+      <created>1665642907630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665642907630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +131,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hwss1" />
     <option name="LAST_COMMIT_MESSAGE" value="hwss1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
