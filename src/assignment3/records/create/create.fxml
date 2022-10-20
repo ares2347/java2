@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="assignment3.records.create.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="225.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add New Record">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="50.0" layoutY="33.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="&lt; Back" />
+      <ComboBox fx:id="cbBooks" editable="true" layoutX="170.0" layoutY="120.0" prefHeight="25.0" prefWidth="260.0" promptText="Book ID" />
+      <ComboBox fx:id="cbStudents" editable="true" layoutX="170.0" layoutY="167.0" prefHeight="25.0" prefWidth="260.0" promptText="Student ID" />
+      <TextField fx:id="txtQty" layoutX="170.0" layoutY="219.0" prefHeight="25.0" prefWidth="128.0" promptText="Amount" />
+      <Button onAction="#submit" layoutX="338.0" layoutY="281.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="92.0" text="Save" />
+   </children>
+</Pane>

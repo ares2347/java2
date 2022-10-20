@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment3.records.list.Controller">
+    <children>
+        <Text layoutX="254.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Record">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Button layoutX="14.0" layoutY="18.0" mnemonicParsing="false" onAction="#navigateHome" text="&lt;&lt; Back" />
+        <Button layoutX="496.0" layoutY="18.0" mnemonicParsing="false" onAction="#addNewRecord" text="New Record" />
+        <TableView fx:id="tbRecords" layoutX="20.0" layoutY="73.0" prefHeight="315.0" prefWidth="557.0">
+            <columns>
+                <TableColumn fx:id="tdBookId" prefWidth="190.0" text="Book ID" />
+                <TableColumn fx:id="tdStudentId" prefWidth="202.0" text="Student ID" />
+                <TableColumn fx:id="tdQty" minWidth="0.0" prefWidth="94.0" text="Quantity" />
+                <TableColumn minWidth="0.0" prefWidth="70.0" text="Action" />
+            </columns>
+        </TableView>
+    </children>
+</Pane>
